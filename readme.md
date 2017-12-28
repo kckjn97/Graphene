@@ -16,7 +16,7 @@ For instance: If you want to run BFS on the file you put distributed from [here]
 The above commandline is reflecting following parameter configurations: /path/to/exe #row_partitions #col_partitions thread_count /path/to/beg_pos_dir /path/to/csr_dir beg_header csr_header num_chunks chunk_sz (#bytes) concurr_IO_ctx max_continuous_useless_blk ring_vert_count num_buffs source;
 
 
-**Should you have any questions about this project, please contact us by iheartgraph@gmail.com.**
+**Should you have any questions about this project, please contact us by hang_liu@uml.edu.**
 
 -----
 Reference
