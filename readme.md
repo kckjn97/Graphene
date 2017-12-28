@@ -1,15 +1,19 @@
 ----
 Specification
 -----
-To run graphene, you need to do three things: **partition a graph**, **format and mount disks and distribute graph data on disks**, **run graphene**. These three steps also constitute the entire Graphene project structure as below.
+To run graphene, you need to do three things step by step: **[partition a graph](https://github.com/asherliu/Graphene/tree/master/converter)**, **[format and mount disks](https://github.com/asherliu/Graphene/tree/master/disk_management)** and **[distribute graph data on disks]((https://github.com/asherliu/Graphene/tree/master/disk_management))**. Afterwards, you can run graphene. 
 
-----
-Project structure
+
 -----
-- **converter**: convert a text tuple list into *row-column balanced 2d partition* format of the graph.
-- **disk_management**: format and mount disks to the server and further distribute the partitioned dataset into these disks.
-- **Graphene** contains *lib and test* two source code.
+Graphene 
+-----------
+contains *lib and test* two source code.
 Please find the detailed specification in the sub folders.
+
+For instance: If you want to run BFS on the file you put distributed from [here]((https://github.com/asherliu/Graphene/tree/master/disk_management). You will need the following commandline to run the test:
+./aio_bfs.bin 2 2 4 /home/hang/graph/2d/ /home/hang/graph/2d/ com-orkut.ungraph.txt-split_beg com-orkut.ungraph.txt-split_csr 4194304 33554432 4096 16384 32 16 1
+
+The above commandline is reflecting following parameter configurations: /path/to/exe #row_partitions #col_partitions thread_count /path/to/beg_pos_dir /path/to/csr_dir beg_header csr_header num_chunks chunk_sz (#bytes) concurr_IO_ctx max_continuous_useless_blk ring_vert_count num_buffs source;
 
 
 **Should you have any questions about this project, please contact us by iheartgraph@gmail.com.**
