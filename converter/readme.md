@@ -5,7 +5,7 @@ Converter Specification
 This converter tells you how to convert a text edge tuple into binary CSR format in parallel
 
 ----
-Step I: Convert and Partition a Graph
+Step 1: Convert and Partition a Graph
 ---
 - Create a folder to store dataset: **mkdir -p sample_dataset; cd sample_dataset**
 - Download a text tuple list: **wget *https://snap.stanford.edu/data/bigdata/communities/com-orkut.ungraph.txt.gz***
