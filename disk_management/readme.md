@@ -3,7 +3,7 @@ Disk management specification
 --------
 This folder discusses the way of mounting corresponding disks to correct folder for data distruction in later step discussed in the main folder.
 
-**manage_disk.bash** is the bash I wrote to mount **$row_par*$col_par** amount of (Samsung SSD 850) SSDs under the folder -- **/home/hang/graph/2d**. 
+**manage_disk.bash** is the bash I wrote to mount **$row_par\*$col_par** amount of (Samsung SSD 850) SSDs under the folder -- **/home/hang/graph/2d**. 
 
 Following steps are necessary for this disk mounting:
 - Format every disk to ext4 format.
