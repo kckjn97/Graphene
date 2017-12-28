@@ -1,7 +1,7 @@
 ----
 Specification
 -----
-To run graphene, you need to do three things step by step: **[partition a graph](https://github.com/asherliu/Graphene/tree/master/converter)**, **[format and mount disks](https://github.com/asherliu/Graphene/tree/master/disk_management)** and **[distribute graph data on disks]((https://github.com/asherliu/Graphene/tree/master/disk_management))**. Afterwards, you can run graphene. 
+To run graphene, you need to do three things step by step: **[partition a graph](https://github.com/asherliu/Graphene/tree/master/converter)**, **[format and mount disks](https://github.com/asherliu/Graphene/tree/master/disk_management)** and **[distribute graph data on disks](https://github.com/asherliu/Graphene/tree/master/disk_management)**. Afterwards, you can run graphene. 
 
 
 -----
